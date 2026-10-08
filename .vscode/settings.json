@@ -1,7 +1,7 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "biblioteca_progiii.jar"
+        "biblioteca/biblioteca_progiii.jar"
     ],
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable"
 }
