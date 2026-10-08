@@ -1,18 +1,24 @@
-## Getting Started
+# Ejercicio 4: Mayor de 3 Números
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Programa en Java que solicita tres números enteros por teclado, evalúa cuál es el mayor e indica su posición exacta (1º, 2º o 3º), contemplando todos los posibles escenarios de igualdad.
 
-## Folder Structure
+## 📋 Casos Contemplados
 
-The workspace contains two folders by default, where:
+- **Tres números iguales:** Detecta si todos los valores son identicos.
+- **Empate en el valor máximo:** Identifica las parejas que comparten la cifra mayor:
+  - 1º y 2º número
+  - 1º y 3º número
+  - 2º y 3º número
+- **Ganador único:** Determina qué posición ocupa el valor más alto cuando no existe empate en la cima.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 💻 Ejemplo de Ejecución
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```text
+==================================
+       NUMERO MAYOR ENTRE 3       
+==================================
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Introduce el primer número: 8
+Introduce el segundo número: 8
+Introduce el tercer número: 3
+El mayor es el 8 y son el primer y segundo número introducidos.
